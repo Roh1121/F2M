@@ -1,4 +1,4 @@
-# A-Farm
+# F2M
 
 F2M is a web platform that connects farmers and vendors to facilitate direct buying and selling of agricultural products. This helps eliminate middlemen, ensuring fair prices for farmers and affordable rates for buyers.
 
