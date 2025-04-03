@@ -1,0 +1,99 @@
+[
+  {
+      "id": 1,
+      "name": "Apple",
+      "price": 1000,
+      "location": "Old Adilabad",
+      "farmer": "Mallappa",
+      "daysListed": 7,
+      "description": "Fresh apples directly from the farm.",
+      "reviews": 12,
+      "vendorReviews": [
+          { "vendorName": "Alice", "comment": "Great apples!" },
+          { "vendorName": "Bob", "comment": "Very fresh and juicy." }
+      ],
+      "image": "/images/apple.jpg", 
+    "images": [
+      "/images/apple.jpg",
+      "/images/apples1.jpg",
+      "/images/apples2.jpeg"
+    ]
+  },
+  {
+      "id": 2,
+      "name": "Lemon",
+      "price": 1300,
+      "location": "Karimnagar",
+      "farmer": "Shankar",
+      "daysListed": 4,
+      "description": "Organic and tangy lemons.",
+      "reviews": 8,
+      "vendorReviews": [
+          { "vendorName": "Charlie", "comment": "Loved the quality!" }
+      ],
+      "image": "/images/lemon.jpg", 
+    "images": [
+      "/images/lemon.jpg",
+      "/images/lemon1.png",
+      "/images/lemon2.jpg"
+    ]
+  },
+  {
+      "id": 3,
+      "name": "Dal",
+      "price": 2200,
+      "location": "Warangal",
+      "farmer": "Nikhil Raj",
+      "daysListed": 8,
+      "description": "High-quality pulses for daily meals.",
+      "reviews": 10,
+      "vendorReviews": [
+          { "vendorName": "David", "comment": "Best dal ever!" }
+      ],
+      "image": "/images/dal.jpg", 
+    "images": [
+      "/images/dal.jpg",
+      "/images/dal1.jpg",
+      "/images/dal2.jpg"
+    ]
+  },
+  {
+      "id": 4,
+      "name": "Rice",
+      "price": 1500,
+      "location": "Peddapalli",
+      "farmer": "Suresh",
+      "daysListed": 2,
+      "description": "Premium quality rice for your kitchen.",
+      "reviews": 15,
+      "vendorReviews": [
+          { "vendorName": "Eve", "comment": "Nice and aromatic rice!" }
+      ],
+      "image": "/images/Rice.jpg", 
+    "images": [
+      "/images/Rice.jpg",
+      "/images/Rice1.png",
+      "/images/Rice2.jpeg"
+    ]
+  },
+  {
+      "id": 5,
+      "name": "Tomato",
+      "price": 5000,
+      "location": "Kolar",
+      "farmer": "Laxman",
+      "daysListed": 10,
+      "description": "Fresh and organic tomatoes.",
+      "reviews": 6,
+      "vendorReviews": [
+          { "vendorName": "Sunil", "comment": "Very juicy and fresh!"},
+          {"vendorName": "Sandeep", "comment": "Very fresh!"}
+      ],
+      "image": "/images/Tomato.jpg", 
+    "images": [
+      "/images/Tomato.jpg",
+      "/images/Tomato1.png",
+      "/images/Tomato2.jpg"
+    ]
+  }
+]

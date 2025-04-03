@@ -1,0 +1,73 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: black;
+  margin-bottom: 20px; /* Adjust spacing between video and footer */
+}
+
+.background-video {
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay Styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Ensure video scales properly on smaller screens */
+@media (max-width: 768px) {
+  .video-container {
+      height: 50vh; /* Reduce height for smaller screens */
+  }
+
+  .overlay {
+      font-size: 1.5rem; /* Reduce overlay text size */
+  }
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Adjust spacing between icons */
+  padding: 20px 0;
+  background-color: white;
+  margin-top: -20px; /* Reduce space between video and categories */
+}
+
+.category {
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.category img {
+  width: 80px; /* Adjust icon size */
+  height: 80px;
+  object-fit: contain;
+}
+
+.category p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.category:hover {
+  transform: scale(1.1);
+}
+

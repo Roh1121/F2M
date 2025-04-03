@@ -1,0 +1,70 @@
+.product-listing {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Uniform product card styles */
+.product-card {
+    background-color: rgb(248, 242, 233);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures all cards have the same height */
+}
+
+/* Uniform image size */
+.product-card img {
+    width: 100%;
+    height: 180px; /* Fixed height for all images */
+    object-fit: cover; /* Prevents stretching */
+    border-radius: 5px;
+}
+
+/* Ensures text alignment and spacing */
+.product-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Buy button styling */
+.buy-button {
+    background-color: #9d92c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: auto; /* Pushes the button to the bottom */
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .product-listing {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-listing {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-listing {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,66 @@
+.stats-section, .recent-activities, .tasks {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .stat-card {
+    flex: 1 1 calc(25% - 15px);
+    background: #27ae60;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .stat-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .recent-activities ul, .tasks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activities ul li, .tasks ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .recent-activities ul li:last-child, .tasks ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .stats {
+      flex-direction: column;
+    }
+  
+    .stat-card {
+      flex: 1 1 100%;
+    }
+  }

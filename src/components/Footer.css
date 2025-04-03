@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;  /* Distributes space evenly */
+    align-items: center;  /* Ensures vertical alignment */
+    border-top: 2px solid white;
+    padding: 10px 20px;  /* Adjust padding for spacing */
+    background-color: rgb(227, 221, 221);
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;  /* Adds spacing between links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    flex: 1;  /* Takes remaining space to center text */
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright {
+        margin-bottom: 10px;
+    }
+}
