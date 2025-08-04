@@ -2,6 +2,9 @@
 
 F2M is a web platform that connects farmers and vendors to facilitate direct buying and selling of agricultural products. This helps eliminate middlemen, ensuring fair prices for farmers and affordable rates for buyers.
 <img width="1899" height="934" alt="image" src="https://github.com/user-attachments/assets/46e023a7-04db-4b22-b09c-c6a5ce5d8e70" />
+<img width="1893" height="937" alt="image" src="https://github.com/user-attachments/assets/b6a25864-9318-4c33-a052-15804caa5f41" />
+<img width="1902" height="934" alt="image" src="https://github.com/user-attachments/assets/99c50142-7890-4bec-86bd-bba3f1882fd8" />
+
 
 ## Features
 - **Farmer & Vendor Registration**: Secure authentication for farmers and vendors.
